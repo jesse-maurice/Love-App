@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  min-height: calc(100vh - 0.1px);
+  padding: 1.5rem;
+  background-color: rgb(155, 108, 155);
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  background-color: pink;
+  min-height: 30vh;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.first-container-title h1 {
+  color: rgb(155, 108, 155);
+}
+
+.second-container-title h1 {
+  color: rgb(155, 108, 155);
+}
+
+input {
+  padding: 5px 4px;
+  margin-top: 1rem;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid purple;
+  text-align: center;
+  background-color: #fff;
+}
+
+hr {
+  background-color: purple;
+  min-height: 0.08px;
+  margin: 1rem 0 1rem 0;
+  width: 80%;
+}
+
+.first-container img {
+  width: 70%;
+  margin-top: 0.1rem;
+}
+
+.second-container img {
+  width: 70%;
+  margin-top: 0.1rem;
+}
+
+.male-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 50%;
+  border: 2px solid purple;
+  color: pink;
+}
+
+.female-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 50%;
+  border: 2px solid purple;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  min-height: 30vh;
+}
+
+.bg-top img {
+  position: absolute;
+  bottom: 7rem;
+  right: 0;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.bg-bottom img {
+  position: absolute;
+  bottom: 10rem;
+  right: 0;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.bmi-container-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 15px;
+  color: #fff;
+}
+
+.button {
+  margin-top: 2rem;
+}
+
+.love-btn {
+  padding: 10px 50px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgb(155, 108, 155);
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  transition: 1s;
+}
+
+.love-btn:hover {
+  background-color: rgb(90, 37, 90);
+}
